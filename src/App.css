@@ -1,33 +1,52 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  height: 120px;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  font-size: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);
 }
-
-.App-link {
-  color: #61dafb;
+header img {
+  height: 100px;
+  text-align: left;
+  padding-left: 100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header p {
+  flex: 50%;
+  text-align: right;
+  padding-right: 100px;
+}
+.btn-grad {
+  padding: 15px 100px;
+  color: #fff;
+  border: 0px;
+  background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+}
+.btn-grad:hover {
+  background-position: right center;
+}
+.meme-form input {
+  height: 37px;
+  margin-right: 7px;
+}
+.meme {
+  position: relative;
+  color: #fff;
+}
+.meme .top {
+  position: absolute;
+  top: 8px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.meme .bottom {
+  position: absolute;
+  bottom: 8px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.meme img {
+  margin-top: 15px;
 }
